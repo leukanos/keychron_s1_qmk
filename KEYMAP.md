@@ -21,6 +21,8 @@ The Keychron S1 keymap (`keymap.c`) is the baseline. Karabiner (`karabiner/karab
 | `.` | Opt+Delete | | | |
 | Every other key | Hyper+key | | | |
 
+Left Opt with H or L jumps by word (Opt+Left, Opt+Right). On the Keychron the layer passes Opt through. On the MacBook, two Karabiner rules do this. Opt+Shift word selection is not available on the layer, because the Shift overrides take H and L.
+
 Hyper is Cmd+Ctrl+Opt+Shift. The Keychron sends the left-side modifiers. Karabiner sends the right-side modifiers.
 
 ## Other shared behavior
@@ -54,6 +56,7 @@ Run on the Keychron and on the MacBook. Use Karabiner EventViewer to see the key
 
 - Caps tap sends Esc. Caps hold with a fast H sends Left, not Esc.
 - Each key in the `MOD` table, with and without Cmd, Ctrl, and Shift.
+- Caps+Left Opt+H and Caps+Left Opt+L jump by word.
 - Caps+S fires a test Hyper hotkey.
 - Shift taps send `(` and `)`. Left Shift held still works as Shift.
 - Grave double tap gives `~`. A single tap gives a grave.
