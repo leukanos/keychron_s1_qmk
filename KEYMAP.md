@@ -35,6 +35,7 @@ Hyper is Cmd+Ctrl+Opt+Shift. The Keychron sends the left-side modifiers. Karabin
 
 - Esc double tap sends Caps Lock on the Keychron only. Karabiner cannot undo the first Esc.
 - The Keychron has dedicated Home, End, Page Up, and Page Down keys. The MacBook does not.
+- The Keychron key after F12 (screenshot icon) sends F13 on the Mac layer. The MacBook has no such key.
 - The Windows layers have no `MOD` layer or tap dance.
 - Function row: the Keychron sends F1 to F12 by default. `Fn+F3` is Mission Control and `Fn+F4` is Launchpad. The MacBook sends media keys by default unless macOS standard function keys is on (`defaults write -g com.apple.keyboard.fnState -bool true`, then log out and in).
 
